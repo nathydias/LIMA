@@ -1,6 +1,21 @@
 body{
     background-color: rgb(92, 186, 139);
 }
+img{
+    width: 300px;        /*Largura da imagem*/       
+    height: 320px;        /*Altura da imagem*/
+    opacity: 75%;            /*transparencia da imagem*/
+}
+img:hover{
+    opacity: 100%;
+
+    #img1{
+        test-align: center;
+    }
+    #img1:hover{
+        zoom: 1.25;
+    }
+}ilter
 h1{
     text-align: center;
     color: black;
@@ -13,4 +28,5 @@ h2{
 p{
    font-family: fantasy;
     color: black;
+    
 }
